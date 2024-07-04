@@ -1,8 +1,8 @@
-var name = "junaid";
-var age = 27;
-var hasHobbies = true;
+const name = "junaid";
+const age = 27;
+const hasHobbies = true;
 
-function UserDetails(userName, age, hobbies) {
+const UserDetails = (userName, age, hobbies) => {
   return (
     "Name of the user is " +
     userName +
@@ -11,6 +11,6 @@ function UserDetails(userName, age, hobbies) {
     " Hobbies: " +
     hobbies
   );
-}
+};
 
-console.log(UserDetails(name, age, hasHobbies))
+console.log(UserDetails(name, age, hasHobbies));
