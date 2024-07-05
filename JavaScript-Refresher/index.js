@@ -17,11 +17,19 @@
 
 // Objects
 
-const person = {
-  name: "john",
-  age: 25,
-  greet() {
-    console.log("hello my name is " + this.name);
-  },
-};
-person.greet();
+// const person = {
+//   name: "john",
+//   age: 25,
+//   greet() {
+//     console.log("hello my name is " + this.name);
+//   },
+// };
+// person.greet();
+
+//Arrays
+
+const users = ["john", 25, { hasHobby: true }];
+
+for (let user of users) {
+  console.log(user);
+}
