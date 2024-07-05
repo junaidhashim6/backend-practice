@@ -28,8 +28,11 @@
 
 //Arrays
 
-const users = ["john", 25, { hasHobby: true }];
+const users = ["john", "berg"];
 
-for (let user of users) {
-  console.log(user);
-}
+// for (let user of users) {
+//   console.log(user);
+// }
+
+console.log(users.map((user) => "Name " + user));
+console.log(users);
